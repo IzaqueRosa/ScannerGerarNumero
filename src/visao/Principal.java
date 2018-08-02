@@ -29,7 +29,7 @@ public class Principal {
             
                     System.out.println("O número informado pelo usuário foi: " + c.getNumUser());
                     System.out.println("O número gerado aleatoriamente foi: " + c.getNumRand());
-                    System.out.println("A multiplicação dos dois números é: " + c.somarNumeros());
+                    System.out.println("A multiplicação dos dois números é: " + c.multiplicarNumeros());
 
                     System.out.print("\n");
                     System.out.println("-----INFORME UM NOVO NÚMERO-----\n");
@@ -40,6 +40,8 @@ public class Principal {
             }
 
         } while (!exit);
+        
+        System.out.println("Projeto finalizado!");
     }
 
 }

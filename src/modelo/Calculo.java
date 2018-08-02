@@ -39,7 +39,7 @@ public class Calculo {
     }
 
     
-    public int somarNumeros() throws InterruptedException {
+    public int multiplicarNumeros() throws InterruptedException {
         int numerosMultiplicados = this.numUser * this.numRand;
         TimeUnit.SECONDS.sleep(numerosMultiplicados);
         return numerosMultiplicados;
